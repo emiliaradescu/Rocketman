@@ -1,0 +1,326 @@
+.nav{
+    position: relative;
+    margin: auto;
+    padding:10px;
+}
+.menu{
+    text-align: right;
+    display: inline;
+}
+.menu li{
+    display: inline;
+    text-transform: uppercase;
+    margin: 20px;
+}
+body{
+    background-color: white;
+    background-image: url(https://images.unsplash.com/photo-1517976487492-5750f3195933?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 400px;    
+}
+h1{
+    color: aliceblue;
+    font-size:60px;
+}
+h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+button{
+   font-size: 20px;
+   text-transform: uppercase;
+   opacity: 0.75;
+    
+
+}
+.para{
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    }
+.card-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10%;
+  }
+  .card-1 h5 {
+    font-size: 23px;
+  }
+  .card-1 p {
+    font-size: 21px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .card-1 a {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #814ebf;
+  }
+  .card-text {
+    padding: 48px;
+  }
+  .card-left {
+    flex-basis: 45%;
+    
+    border: 1px solid gray;
+    width: 500px;
+  }
+  .card-content-left img {
+    width: 100%;
+  }
+  .card-content-left {
+    text-align: center;
+  }
+  .card-text{
+      text-align: center;
+  }
+
+  .card-right {
+    flex-basis: 45%;
+    border: 1px solid gray;
+    width: 500px;
+  }
+  .card-content-right img {
+    width: 100%;
+  }
+  .card-content-right  {
+    text-align: center;
+  }
+  .card-text{
+      text-align: center;
+  }
+  
+  .card-2 {
+    margin-bottom: 15%;
+  }
+  .card-2 h3 {
+    font-size: 30px;
+  }
+  .card-2 p {
+    font-size: 20px;
+  }
+  .card-2 button {
+    font-size: 18px;
+  }
+  .card-2 .inCard {
+    position: relative;
+    width: 100%;
+  }
+  .card-2 .inCard img {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+  }
+  .card-2 .inCard .outCard {
+    position: absolute;
+    display: inline-block;
+    background-image: url("https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png");
+    width: 420px;
+    height: 50%;
+    right: 4%;
+    bottom: -10%;
+    color: white;
+    padding: 5% 5%;
+    padding-top: 1%;
+    margin: 2% 2%;
+  }
+  .card-2 .inCard .outCard button {
+    text-transform: uppercase;
+    padding: 8px 48px;
+    margin-top: 7%;
+  }
+  .card-3 {
+    margin-bottom: 20%;
+  }
+  .card-3 h3 {
+    font-size: 34px;
+  }
+  .card-3 p {
+    font-size: 21px;
+  }
+  .card-3 button {
+    font-size: 18px;
+  }
+    .card-3 .inCard {
+    position: relative;
+    width: 100%;
+  }
+  .card-3 .inCard img {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    right: -20%;
+  }
+  .card-3 .inCard .outCard {
+    position: absolute;
+    display: inline-block;
+    background-image: url("https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png");
+    width: 420px;
+    height: 50%;
+    left: 4%;
+    bottom: -10%;
+    color: white;
+    padding: 5% 5%;
+    padding-top: 1%;
+    margin: 2% 2%;
+  }
+  .card-3 .inCard .outCard button {
+    text-transform: uppercase;
+    padding: 8px 48px;
+    margin-top: 7%;
+  }
+  .card-4 {
+    margin-bottom: 15%;
+  }
+  .card-4 h3 {
+    font-size: 34px;
+  }
+  .card-4 p {
+    font-size: 21px;
+  }
+  .card-4 button {
+    font-size: 18px;
+  }
+  .card-4 .inCard {
+    position: relative;
+    width: 100%;
+  }
+  .card-4 .inCard img {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+  }
+  .card-4 .inCard .outCard {
+    position: absolute;
+    display: inline-block;
+    background-image: url("https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png");
+    width: 440px;
+    height: 50%px;
+    right: 4%;
+    bottom: -10%;
+    color: white;
+    padding: 5% 5%;
+    padding-top: 1%;
+    margin: 2% 2%;
+  }
+  .card-4 .inCard .outCard button {
+    text-transform: uppercase;
+    padding: 8px 48px;
+    margin-top: 7%;
+  }
+    .contactEnd1 {
+    display: block;
+    margin: 0 5%;
+    margin-bottom: 10%;
+  }
+  .contactEnd1 h3 {
+    font-weight: 50;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  .contactEnd1 button {
+    margin: 0 auto;
+    display: block;
+    padding: 8px 48px;
+    background-color: #814ebf;
+    color: white;
+    font-size: large;
+    border-color: #814ebf;
+  }
+  .contactEnd1 button:hover {
+    background-color: #5c3988;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+    .finally {
+    display: block;
+    margin: 0 5%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+  .finally p {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: oblique;
+  }
+  .finally h5 {
+    font-size: 18px;
+    margin-top: 1%;
+  }
+    .finally2 {
+    font-size: 20px;
+    font-weight: 10000;
+    background-color: #814ebf;
+    color: white;
+    display: block;
+    height: 100%;
+  }
+  .endcontain-margin {
+    margin: 0 10%;
+  }
+  .endcontainContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .finally2 .endcontain-margin .endcontainContainer .endcontain-text {
+    text-align: left;
+    max-width: 73%;
+    justify-items: center;
+    align-items: center;
+    flex-grow: 2;
+    padding: 5% 5%;
+  }
+  .finally2 .endcontain-margin .endcontainContainer .endcontain-text p {
+    max-width: 70%;
+    margin-top: 2%;
+  }
+  .finally2 .endcontain-margin .endcontainContainer .endcontain-button {
+    right: 0;
+    padding: 10% 5%;
+    justify-content: center;
+    align-content: center;
+  }
+  .finally2 .endcontain-margin .endcontainContainer .endcontain-button button {
+    display: inline-block;
+    padding: 8px 48px;
+    margin-top: 10%;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  footer {
+    background-color: black;
+    height: 100%;
+  }
+  footer .container {
+    display: grid;
+    margin: 0 10%;
+    grid-template-columns: auto auto auto auto;
+    grid-column: 2%;
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    padding: 5% 5%;
+  }
+  footer span {
+    text-transform: uppercase;
+    color: gray;
+    padding: 3% 0;
+  }
+  footer .container .links ul {
+    list-style: none;
+  }
+  footer .container .links ul li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+  }
+  footer .last h5 {
+    color: gray;
+  }
+  
